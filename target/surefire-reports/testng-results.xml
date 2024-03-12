@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="14" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-12T23:25:34 IST" name="Suite" finished-at="2024-03-12T23:36:00 IST" duration-ms="626144">
+    <groups>
+    </groups>
+    <test started-at="2024-03-12T23:25:34 IST" name="ChromeTest" finished-at="2024-03-12T23:36:00 IST" duration-ms="626144">
+      <class name="test.TC002_Signintest">
+        <test-method is-config="true" signature="excelfile()[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:25:34 IST" name="excelfile" finished-at="2024-03-12T23:25:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelfile -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:29:25 IST" name="launchBrowser" finished-at="2024-03-12T23:29:29 IST" duration-ms="4127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testsignin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:29:29 IST" name="testsignin" data-provider="exceldata" finished-at="2024-03-12T23:29:53 IST" duration-ms="23872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsignin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:29:53 IST" name="browserClose" finished-at="2024-03-12T23:29:53 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:29:53 IST" name="launchBrowser" finished-at="2024-03-12T23:29:59 IST" duration-ms="5692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testsignin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:29:59 IST" name="testsignin" data-provider="exceldata" finished-at="2024-03-12T23:30:23 IST" duration-ms="24064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramkumar@.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emailwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsignin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:30:23 IST" name="browserClose" finished-at="2024-03-12T23:30:24 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:30:24 IST" name="launchBrowser" finished-at="2024-03-12T23:30:28 IST" duration-ms="4207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testsignin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:30:28 IST" name="testsignin" data-provider="exceldata" finished-at="2024-03-12T23:30:59 IST" duration-ms="31339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passwordwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsignin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:30:59 IST" name="browserClose" finished-at="2024-03-12T23:31:00 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:31:00 IST" name="launchBrowser" finished-at="2024-03-12T23:31:07 IST" duration-ms="6861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testsignin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:31:07 IST" name="testsignin" data-provider="exceldata" finished-at="2024-03-12T23:31:31 IST" duration-ms="24477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramkumar@.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsignin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC002_Signintest@43f02ef2]" started-at="2024-03-12T23:31:31 IST" name="browserClose" finished-at="2024-03-12T23:31:32 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC002_Signintest -->
+      <class name="test.TC000_Brokenlinktest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC000_Brokenlinktest@792b749c]" started-at="2024-03-12T23:25:34 IST" name="launchBrowser" finished-at="2024-03-12T23:25:40 IST" duration-ms="6336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="urlbroken()[pri:0, instance:test.TC000_Brokenlinktest@792b749c]" started-at="2024-03-12T23:25:40 IST" name="urlbroken" finished-at="2024-03-12T23:26:06 IST" duration-ms="25438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlbroken -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC000_Brokenlinktest@792b749c]" started-at="2024-03-12T23:26:06 IST" name="browserClose" finished-at="2024-03-12T23:26:06 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC000_Brokenlinktest -->
+      <class name="test.TC006_Shopdepartaddcart">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC006_Shopdepartaddcart@2de56eb2]" started-at="2024-03-12T23:33:44 IST" name="launchBrowser" finished-at="2024-03-12T23:33:47 IST" duration-ms="3453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="addcartshop()[pri:0, instance:test.TC006_Shopdepartaddcart@2de56eb2]" started-at="2024-03-12T23:33:47 IST" name="addcartshop" finished-at="2024-03-12T23:34:29 IST" duration-ms="42021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcartshop -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC006_Shopdepartaddcart@2de56eb2]" started-at="2024-03-12T23:34:29 IST" name="browserClose" finished-at="2024-03-12T23:34:30 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC006_Shopdepartaddcart -->
+      <class name="test.TC005_searchaddcart">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC005_searchaddcart@6f204a1a]" started-at="2024-03-12T23:32:58 IST" name="launchBrowser" finished-at="2024-03-12T23:33:02 IST" duration-ms="3808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="addcart()[pri:0, instance:test.TC005_searchaddcart@6f204a1a]" started-at="2024-03-12T23:33:02 IST" name="addcart" finished-at="2024-03-12T23:33:43 IST" duration-ms="40770" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@data-button-state='ADD_TO_CART'])[4]"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1418dbcf0527530031ffbbe7ba39ac3, findElement {using=xpath, value=(//button[@data-button-state='ADD_TO_CART'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\MOORTHI\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61949/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1418dbcf0527530031ffbbe7ba39ac3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@data-button-state='ADD_TO_CART'])[4]"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1418dbcf0527530031ffbbe7ba39ac3, findElement {using=xpath, value=(//button[@data-button-state='ADD_TO_CART'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\MOORTHI\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61949/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1418dbcf0527530031ffbbe7ba39ac3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at utilis.Utility.findElement(Utility.java:80)
+at pages.Additemtosearch.addtocart(Additemtosearch.java:22)
+at test.TC005_searchaddcart.addcart(TC005_searchaddcart.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcart -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC005_searchaddcart@6f204a1a]" started-at="2024-03-12T23:33:43 IST" name="browserClose" finished-at="2024-03-12T23:33:44 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC005_searchaddcart -->
+      <class name="test.TC007_Addcartbybrand">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC007_Addcartbybrand@5f8e8a9d]" started-at="2024-03-12T23:34:30 IST" name="launchBrowser" finished-at="2024-03-12T23:34:34 IST" duration-ms="3783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="addbrandcart()[pri:0, instance:test.TC007_Addcartbybrand@5f8e8a9d]" started-at="2024-03-12T23:34:34 IST" name="addbrandcart" finished-at="2024-03-12T23:35:07 IST" duration-ms="33239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbrandcart -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC007_Addcartbybrand@5f8e8a9d]" started-at="2024-03-12T23:35:07 IST" name="browserClose" finished-at="2024-03-12T23:35:08 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC007_Addcartbybrand -->
+      <class name="test.TC003_Menunavigatetest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC003_Menunavigatetest@239a307b]" started-at="2024-03-12T23:31:32 IST" name="launchBrowser" finished-at="2024-03-12T23:31:35 IST" duration-ms="3567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigation()[pri:0, instance:test.TC003_Menunavigatetest@239a307b]" started-at="2024-03-12T23:31:35 IST" name="navigation" finished-at="2024-03-12T23:32:32 IST" duration-ms="56549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC003_Menunavigatetest@239a307b]" started-at="2024-03-12T23:32:32 IST" name="browserClose" finished-at="2024-03-12T23:32:32 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC003_Menunavigatetest -->
+      <class name="test.TC008_Checkouttest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC008_Checkouttest@5745ca0e]" started-at="2024-03-12T23:35:08 IST" name="launchBrowser" finished-at="2024-03-12T23:35:13 IST" duration-ms="5201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="payment()[pri:0, instance:test.TC008_Checkouttest@5745ca0e]" started-at="2024-03-12T23:35:13 IST" name="payment" finished-at="2024-03-12T23:35:59 IST" duration-ms="45314" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1292, 388). Other element would receive the click: <div class="row">...</div>
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c158880f40e881014aad07fa39cc3b4a, clickElement {id=f.832BA4BC926C58C265F75C27F2B0DF00.d.9B5D5C9F843ED24B3A95872DE6D4A275.e.461}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\MOORTHI\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62399/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c158880f40e881014aad07fa39cc3b4a)] -> xpath: //button[text()='Checkout']]
+Session ID: c158880f40e881014aad07fa39cc3b4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1292, 388). Other element would receive the click: <div class="row">...</div>
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c158880f40e881014aad07fa39cc3b4a, clickElement {id=f.832BA4BC926C58C265F75C27F2B0DF00.d.9B5D5C9F843ED24B3A95872DE6D4A275.e.461}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\MOORTHI\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62399/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c158880f40e881014aad07fa39cc3b4a)] -> xpath: //button[text()='Checkout']]
+Session ID: c158880f40e881014aad07fa39cc3b4a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.Checkoutpage.clickcheckout(Checkoutpage.java:24)
+at test.TC008_Checkouttest.payment(TC008_Checkouttest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC008_Checkouttest@5745ca0e]" started-at="2024-03-12T23:35:59 IST" name="browserClose" finished-at="2024-03-12T23:36:00 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC008_Checkouttest -->
+      <class name="test.TC004_Bottomlinktest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC004_Bottomlinktest@2a8448fa]" started-at="2024-03-12T23:32:32 IST" name="launchBrowser" finished-at="2024-03-12T23:32:37 IST" duration-ms="4604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="bottomlink()[pri:0, instance:test.TC004_Bottomlinktest@2a8448fa]" started-at="2024-03-12T23:32:37 IST" name="bottomlink" finished-at="2024-03-12T23:32:58 IST" duration-ms="20852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomlink -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC004_Bottomlinktest@2a8448fa]" started-at="2024-03-12T23:32:58 IST" name="browserClose" finished-at="2024-03-12T23:32:58 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC004_Bottomlinktest -->
+      <class name="test.TC001_Createaccounttest">
+        <test-method is-config="true" signature="testdataFile()[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:25:34 IST" name="testdataFile" finished-at="2024-03-12T23:25:34 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdataFile -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:26:07 IST" name="launchBrowser" finished-at="2024-03-12T23:26:14 IST" duration-ms="6116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createaccount_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:26:14 IST" name="createaccount_test" data-provider="exceldata" finished-at="2024-03-12T23:26:47 IST" duration-ms="33709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ramkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6543989784]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount_test -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:26:47 IST" name="browserClose" finished-at="2024-03-12T23:26:48 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:26:48 IST" name="launchBrowser" finished-at="2024-03-12T23:26:52 IST" duration-ms="3854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createaccount_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:26:52 IST" name="createaccount_test" data-provider="exceldata" finished-at="2024-03-12T23:27:17 IST" duration-ms="25144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ramkumar.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6543989784]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[emailwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount_test -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:27:17 IST" name="browserClose" finished-at="2024-03-12T23:27:17 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:27:17 IST" name="launchBrowser" finished-at="2024-03-12T23:27:23 IST" duration-ms="6041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createaccount_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:27:23 IST" name="createaccount_test" data-provider="exceldata" finished-at="2024-03-12T23:28:05 IST" duration-ms="42039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ramkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ramkumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6543989784]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[passwordwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount_test -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:28:05 IST" name="browserClose" finished-at="2024-03-12T23:28:06 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:28:06 IST" name="launchBrowser" finished-at="2024-03-12T23:28:13 IST" duration-ms="7447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createaccount_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:28:13 IST" name="createaccount_test" data-provider="exceldata" finished-at="2024-03-12T23:28:41 IST" duration-ms="27227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ramkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramkumar@]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6543989784]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[confirmpasswordwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount_test -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:28:41 IST" name="browserClose" finished-at="2024-03-12T23:28:41 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:28:41 IST" name="launchBrowser" finished-at="2024-03-12T23:28:47 IST" duration-ms="6355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createaccount_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:28:47 IST" name="createaccount_test" data-provider="exceldata" finished-at="2024-03-12T23:29:24 IST" duration-ms="37062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ramkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramkumar@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65439897]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[phonenumberwrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount_test -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC001_Createaccounttest@7bd7d6d6]" started-at="2024-03-12T23:29:24 IST" name="browserClose" finished-at="2024-03-12T23:29:25 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC001_Createaccounttest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
