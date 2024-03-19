@@ -28,15 +28,21 @@ public class TC001_Createaccounttest extends ProjectSpecification {
 
 		Homepage homeobj = new Homepage(driver);
 		Thread.sleep(3000);
-		homeobj.account_Createaccount().firstName(firstname).lastName(lastname).email(email).password(password)
-				.confirmpassword(confirmpassword).mobileNumber(mobilenumber).createbutton();
-		Thread.sleep(2000);
+		homeobj.account_Createaccount()
+		.firstName(firstname)
+		.lastName(lastname)
+		.email(email)
+		.password(password)
+		.confirmpassword(confirmpassword)
+		.mobileNumber(mobilenumber)
+		.createbutton();
+		
 
 		// use assertion for verification
 		Thread.sleep(1000);
 		if (match.contains("correct")) {
-			WebElement actualtext = driver
-					.findElement(By.xpath("//strong[text()='An account with this email already exists.']"));
+			
+			WebElement actualtext = driver.findElement(By.xpath("//strong[text()='An account with this email already exists.']"));
 			String text = actualtext.getText();
 			System.out.println(text);
 			Assert.assertEquals(text, "An account with this email already exists.");
@@ -52,6 +58,7 @@ public class TC001_Createaccounttest extends ProjectSpecification {
 		}
 
 		else if (match.equals("passwordwrong")) {
+			
 			WebElement passele = driver.findElement(By.xpath("//p[text()='Please enter a strong password.']"));
 			String passtext = passele.getText();
 			Assert.assertEquals(passtext, "Please enter a strong password.");
@@ -59,6 +66,7 @@ public class TC001_Createaccounttest extends ProjectSpecification {
 		}
 
 		else if (match.equals("confirmpasswordwrong")) {
+			
 			WebElement confirmpassele = driver.findElement(By.xpath("//p[text()='Passwords do not match.']"));
 			String confirmpasstext = confirmpassele.getText();
 			Assert.assertEquals(confirmpasstext, "Passwords do not match.");
@@ -66,14 +74,15 @@ public class TC001_Createaccounttest extends ProjectSpecification {
 		}
 
 		else if (match.equals("phonenumberwrong")) {
-			WebElement phoneele = driver
-					.findElement(By.xpath("//p[text()='Please enter a valid mobile phone number.']"));
+			
+			WebElement phoneele = driver.findElement(By.xpath("//p[text()='Please enter a valid mobile phone number.']"));
 			String phonetext = phoneele.getText();
 			Assert.assertEquals(phonetext, "Please enter a valid mobile phone number.");
 			System.out.println("Enter the correct phonenumber");
 		}
 
 		else {
+			
 			System.out.println("Enter correct values");
 		}
 

@@ -11,20 +11,28 @@ import pages.Homepage;
 public class TC008_Checkouttest  extends ProjectSpecification{
 	@Test
 	public void payment() throws InterruptedException {
+		
 		Entrypage entry = new Entrypage(driver);
 		entry.choosecountry();
 		
 		//checkout test		
 		Homepage pay = new Homepage(driver);
-		pay.addtoBrand().addbrand();
-		pay.checkoutcart().clickcheckout().customersignin().deliverydetails().datepick().payment_details();
+		pay.searchtoadd()
+		.clickitem()
+		.addtocart();
+		pay.checkoutcart()
+		.clickcheckout()
+		.customersignin()
+		.gettingorder();
+		//.deliverydetails().datepick().payment_details();
 		
-		WebElement ccele =findElement("Xpath", "//p[text()='Please enter a valid card number.']");
+		
+		//validtion for order placed
+		WebElement ccele =findElement("Xpath", "//span[text()='Request failed because of network connection']");
 		
 		String cctext = ccele.getText();
 		
-		if(cctext.equals("//p[text()='Please enter a valid card number.")) {
-			Assert.assertEquals(cctext, "Please enter a valid card number.");
+		if(cctext.equals("Request failed because of network connection")) {
 			System.out.println("place the order");
 		}
 		

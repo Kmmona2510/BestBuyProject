@@ -13,7 +13,6 @@ public class Entrypage  extends ProjectSpecification{
 	public Entrypage choosecountry() {
 		
 		findElement("Xpath", "(//img[@alt='United States'])[1]").click();
-		
 		return this;
 		
 	}

@@ -12,6 +12,7 @@ public class TC006_Shopdepartaddcart  extends ProjectSpecification {
 		
 		Entrypage entry = new Entrypage(driver);
 		entry.choosecountry();
+		
 		//add cart by shop
 		Homepage shop = new Homepage(driver);
 		shop.addtoshop().selectitemshop();

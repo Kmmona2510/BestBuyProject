@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import base.ProjectSpecification;
 
 public class Additembybrand extends ProjectSpecification {
+	
 	// constructor chaining
 	public Additembybrand(WebDriver driver) {
 
@@ -15,10 +16,9 @@ public class Additembybrand extends ProjectSpecification {
 	public Additembybrand addbrand() {
 
 		findElement("linkText", "LG refrigerators").click();
-
 		findElement("Xpath", "//button[contains(text(),'Add to Cart')]").click();
-
 		return this;
+		
 	}
 
 }

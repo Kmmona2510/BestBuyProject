@@ -7,27 +7,33 @@
 	</listeners>
 	<parameter name="url" value="https://www.bestbuy.com/"></parameter>
 	<test thread-count="5" name="ChromeTest">
-		<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="test.TC000_Brokenlinktest" />
-			<class name="test.TC001_Createaccounttest" />
+ 		<class name="test.TC000_Brokenlinktest" />
+		 	<class name="test.TC001_Createaccounttest" /> 
 			<class name="test.TC002_Signintest" />
 			<class name="test.TC003_Menunavigatetest" />
 			<class name="test.TC004_Bottomlinktest" />
-			<class name="test.TC005_searchaddcart" />
+			<class name="test.TC005_searchaddcart" /> 
 			<class name="test.TC006_Shopdepartaddcart" />
-			<class name="test.TC007_Addcartbybrand" /> 
-			<class name="test.TC008_Checkouttest" />
+			<class name="test.TC007_Addcartbybrand" />  	
+			<class name="test.TC008_Checkouttest" />-->
 
 		</classes>
 	</test> <!-- Test -->
-
-	<!-- <test thread-count="5" name="EdgeTest"> <parameter name="browser" value="edge"></parameter> 
-		<classes> <class name="test.TC000_Brokenlinktest" /> <class name="test.TC001_Createaccounttest" 
-		/> <class name="test.TC002_Signintest" /> <class name="test.TC003_Menunavigatetest" 
-		/> <class name="test.TC004_Bottomlinktest" /> <class name="test.TC005_searchaddcart" 
-		/> <class name="test.TC006_Shopdepartaddcart" /> <class name="test.TC007_Addcartbybrand" 
-		/> <class name="test.TC008_Checkouttest" />
+<!-- For cross browser testing -->
+	<!-- <test thread-count="5" name="EdgeTest">
+	 <parameter name="browser" value="edge"></parameter> 
+		<classes>
+		 <class name="test.TC000_Brokenlinktest" />
+		  <class name="test.TC001_Createaccounttest"/>
+		   <class name="test.TC002_Signintest" />
+		    <class name="test.TC003_Menunavigatetest"/>
+		     <class name="test.TC004_Bottomlinktest" />
+		      <class name="test.TC005_searchaddcart"/>
+		       <class name="test.TC006_Shopdepartaddcart" />
+		        <class name="test.TC007_Addcartbybrand"/> 
+		        <class name="test.TC008_Checkouttest" />
 
 </classes>
 </test>--> <!-- Test --> 

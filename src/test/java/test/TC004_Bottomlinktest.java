@@ -13,6 +13,7 @@ public class TC004_Bottomlinktest extends ProjectSpecification {
 		
 		Entrypage entry = new Entrypage(driver);
 		entry.choosecountry();
+		
 		//bottom links navigation
 		Homepage bottom = new Homepage(driver);
 		bottom.bottomlinksnavigate();

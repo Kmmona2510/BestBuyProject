@@ -14,6 +14,7 @@ public class TC007_Addcartbybrand  extends ProjectSpecification{
 		
 		Entrypage entry = new Entrypage(driver);
 		entry.choosecountry();
+		
 		//add cart to brand
 		Homepage brand =new Homepage(driver);
 		brand.addtoBrand().addbrand();

@@ -45,15 +45,22 @@ public class Utility {
 			driver = new FirefoxDriver();
 		}
 
-		// for headless mode testing
-		/*
-		 * if(browser.equals("chrome")) { ChromeOptions options = new ChromeOptions();
-		 * options.setHeadless(true); driver = new ChromeDriver(options); } else if
-		 * (browser.equals("edge")){ EdgeOptions edgeoption = new EdgeOptions();
-		 * edgeoption.setHeadless(true); driver = new EdgeDriver(edgeoption); }else if
-		 * (browser.equals("firefox")) { FirefoxOptions foxoption =new FirefoxOptions();
-		 * foxoption.setHeadless(true); driver = new FirefoxDriver(foxoption); }
-		 */
+	/*	// for headless mode testing
+		
+		if (browser.equals("chrome")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("headless");
+			driver = new ChromeDriver(options);
+		} else if (browser.equals("edge")) {
+			EdgeOptions edgeoption = new EdgeOptions();
+			edgeoption.addArguments("headless");
+			driver = new EdgeDriver(edgeoption);
+		} else if (browser.equals("firefox")) {
+			FirefoxOptions foxoption = new FirefoxOptions();
+			foxoption.addArguments("headless");
+
+			driver = new FirefoxDriver(foxoption);
+		}		 */
 
 		driver.get(url);
 		driver.manage().window().maximize();
@@ -64,9 +71,10 @@ public class Utility {
 	// close the browser
 	public void closeBrowser() {
 		driver.close();
+		driver.quit();
 	}
 
-//for findelement
+	//for findelement
 	public WebElement findElement(String locatortype, String locatorvalue) {
 
 		switch (locatortype) {
@@ -93,25 +101,18 @@ public class Utility {
 
 	// excel read method
 	public String[][] excelRead() throws IOException {
-		XSSFWorkbook book = new XSSFWorkbook(
-				"C:\\Users\\MOORTHI\\eclipse-workspace\\E-Commerce\\Testdata\\" + excelfile + ".xlsx");
-
+		
+		XSSFWorkbook book = new XSSFWorkbook("C:\\Users\\MOORTHI\\eclipse-workspace\\E-Commerce\\Testdata\\" + excelfile + ".xlsx");
 		XSSFSheet sheet = book.getSheetAt(0);
-
 		int rowCount = sheet.getLastRowNum();
-
 		int columncount = sheet.getRow(0).getLastCellNum();
-
 		String[][] data = new String[rowCount][columncount];
-
 		for (int i = 1; i <= rowCount; i++) {
-
-			XSSFRow row = sheet.getRow(i);
-
+		XSSFRow row = sheet.getRow(i);
+		
 			for (int j = 0; j < columncount; j++) {
-
+				
 				XSSFCell cell = row.getCell(j);
-
 				data[i - 1][j] = cell.getStringCellValue();
 
 			}
@@ -126,13 +127,12 @@ public class Utility {
 	// screenshot method
 	public String getScreenshot(String screenshotname) throws IOException {
 
-		// Calendar cal =Calendar.getInstance();
-		// Date time =(Date) cal.getTime();
+		 Calendar cal =Calendar.getInstance();
+		Date time =(Date) cal.getTime();
 
-		// String timestamp =time.toString().replace(":", "").replace(" ", "");
+		String timestamp =time.toString().replace(":", "").replace(" ", "");
 
-		String path = "C:\\Users\\MOORTHI\\eclipse-workspace\\DemoBlaze\\Screenshot\\screenshotname_" + screenshotname
-				+ ".png";
+		String path = "C:\\Users\\MOORTHI\\eclipse-workspace\\E-Commerce\\screenshots\\" + screenshotname+ ".png";
 
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		File source = screenshot.getScreenshotAs(OutputType.FILE);
@@ -142,15 +142,13 @@ public class Utility {
 
 	}
 
-//for broken links
+	//for broken links
 	public void brokenlinks() throws IOException, InterruptedException {
 
 		// capture link from webpage
-
 		WebElement links = driver.findElement(By.tagName("a"));
 
 		// Number of links
-
 		String url = links.getAttribute("href");
 
 		URL linkurl = new URL(url);

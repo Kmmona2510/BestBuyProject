@@ -11,36 +11,32 @@ public class Createaccountpage extends ProjectSpecification {
 		this.driver = driver;
 	}
 
-//give the firstname value
+	//give the firstname value
 	public Createaccountpage firstName(String firstname) {
 
 		findElement("id", "firstName").sendKeys(firstname);
-
 		return this;
 
 	}
 
-//give lastname value
+	//give lastname value
 	public Createaccountpage lastName(String lastname) {
 
 		findElement("id", "lastName").sendKeys(lastname);
-
 		return this;
 	}
 
-//give the email
+	//give the email
 	public Createaccountpage email(String email) {
 
 		findElement("id", "email").sendKeys(email);
-
 		return this;
 	}
 
-//give the password
+	//give the password
 	public Createaccountpage password(String password) {
 
 		findElement("id", "fld-p1").sendKeys(password);
-
 		return this;
 	}
 
@@ -48,15 +44,13 @@ public class Createaccountpage extends ProjectSpecification {
 	public Createaccountpage confirmpassword(String confirmpassword) {
 
 		findElement("id", "reenterPassword").sendKeys(confirmpassword);
-
 		return this;
 	}
 
-//give the mobile number
+	//give the mobile number
 	public Createaccountpage mobileNumber(String number) {
 
 		findElement("id", "phone").sendKeys(number);
-
 		return this;
 	}
 
@@ -64,7 +58,6 @@ public class Createaccountpage extends ProjectSpecification {
 	public Createaccountpage createbutton() {
 
 		findElement("Xpath", "//button[text()='Create an Account']").click();
-
 		return this;
 	}
 

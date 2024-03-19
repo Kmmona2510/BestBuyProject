@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import base.ProjectSpecification;
 
 public class Additemtoshopdepart extends ProjectSpecification {
+	
 	// constructor
 	public Additemtoshopdepart(WebDriver driver) {
 
@@ -15,9 +16,7 @@ public class Additemtoshopdepart extends ProjectSpecification {
 	public Additemtoshopdepart selectitemshop() {
 
 		findElement("linkText", "Laptops with 16GB RAM or more").click();
-
 		findElement("Xpath", "//button[contains(text(),'Add to Cart')]").click();
-
 		return this;
 
 	}

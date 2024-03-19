@@ -25,6 +25,7 @@ public class ProjectSpecification extends Utility {
 	public void browserClose() {
 
 		closeBrowser();
+		driver.quit();
 	}
 
 	// dataprovider for get data to excel

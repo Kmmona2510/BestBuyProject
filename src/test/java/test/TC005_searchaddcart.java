@@ -12,6 +12,7 @@ public class TC005_searchaddcart  extends ProjectSpecification{
 		
 		Entrypage entry = new Entrypage(driver);
 		entry.choosecountry();
+		
 		//add the cart by search
 		Homepage search = new Homepage(driver);
 		search.searchtoadd().clickitem().addtocart();
